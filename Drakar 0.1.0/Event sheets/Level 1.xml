@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 1</name>
+    <events>
+        <event-block sid="403323968042635">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="562294795250473" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="108954725926427" type="Sprite11">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="231486677651583" type="Sprite11">
+                    <param id="0" name="Animation">&quot;w&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="205608807761547">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="289576340941272" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="114973177682982" type="Sprite11">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="307325234125605" type="Sprite11">
+                    <param id="0" name="Animation">&quot;w&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="469423014692748">
+            <conditions>
+                <condition id="3" name="On key released" sid="973061366418313" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="957159744582042" type="Sprite11">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="760612140132562" type="Sprite11">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819301601450410">
+            <conditions>
+                <condition id="3" name="On key released" sid="116158909685664" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="701393057886630" type="Sprite11">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="372657196651316" type="Sprite11">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="777077624763642">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="909607402398844" type="Sprite11">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="664793054545927" type="Sprite11" />
+                <action id="-16" name="Wait" sid="990458941573700" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="690064508250514" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="125128047872180">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="775730406813219" type="Sprite11">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="511547566696717" type="Sprite11" />
+                <action id="-16" name="Wait" sid="380120085955430" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="932994556844396" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="146481262560693">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="869559548840727" type="Sprite11">
+                    <param id="0" name="Object">Sprite16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="809218399552177" type="Sprite11" />
+                <action id="-16" name="Wait" sid="793533241982226" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="655925544344529" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="499816419232939">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="210357441247858" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="226917838071655" type="Sprite11">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="445901807045502">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="208406031556738" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="865425511916334" type="Sprite11">
+                    <param id="0" name="Animation">&quot;abjo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="848448838082177">
+            <conditions>
+                <condition id="3" name="On key released" sid="562864142522420" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="741058270784590" type="Sprite11">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="378694571319958">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="668477565114989" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="398120497698328" type="Sprite11">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="890037129685053" type="Sprite11">
+                    <param id="0" name="Object">Sprite21</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="841978897395160">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="729342487954985" type="Sprite21">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="460738957267954" type="Sprite20" />
+            </actions>
+        </event-block>
+        <event-block sid="548791793789355">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="783994648646542" type="Sprite20">
+                    <param id="0" name="Object">Sprite21</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="940347557468732" type="Sprite21" />
+                <action behavior="Bullet" id="2" name="Set gravity" sid="778746975219528" type="Sprite21">
+                    <param id="0" name="Gravity">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="395391876399950">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="324442233613716" type="Sprite11">
+                    <param id="0" name="Object">Particles</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="382277461184945" type="Sprite11" />
+                <action id="-16" name="Wait" sid="933332893593964" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="377237492079400" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

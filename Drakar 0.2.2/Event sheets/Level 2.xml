@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 2</name>
+    <events>
+        <variable constant="0" name="body" sid="768390750528531" static="0" type="number">100</variable>
+        <variable constant="0" name="Head" sid="404859417186316" static="0" type="number">200</variable>
+        <event-block sid="942901637332211">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="192435794533679" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="382457008738480" type="Derek">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="426951493343535" type="Derek">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="255560583596766">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="656565139100326" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="718743254275357" type="Derek">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="569439870598993" type="Derek">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="756614264689621">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="930339285552142" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="149094147337496" type="Derek">
+                    <param id="0" name="Animation">&quot;jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="402486669994070">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="620117078253572" type="Keyboard">
+                    <param id="0" name="Key">88</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="409321655781315" type="Derek">
+                    <param id="0" name="Animation">&quot;attak&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942432264630996">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="351741000347855" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+                <condition id="7" inverted="1" name="Is mirrored" sid="809728870134629" type="Derek" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="752608942677090" type="Derek">
+                    <param id="0" name="Animation">&quot;WalkSh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="669671126844492" type="Derek">
+                    <param id="0" name="Object">Bala</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="479016482545458" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="512768240886290" type="Bala" />
+            </actions>
+        </event-block>
+        <event-block sid="400383959888024">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="173327844479437" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="714706408212084" type="Derek">
+                    <param id="0" name="Animation">&quot;stay1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="877603870463135">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="662337608826023" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="411648816855682" type="Derek">
+                    <param id="0" name="Animation">&quot;stay&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="502395229461562">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="491739632401821" type="Derek" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="436537840281500" type="Derek">
+                    <param id="0" name="Animation">&quot;stay&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="683735870969278" type="Derek">
+                    <param id="0" name="Animation">&quot;StaySh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659750289216733">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="160867313791734" type="Derek">
+                    <param id="0" name="Object">bottom</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="930766736247094" type="Derek" />
+                <action id="-16" name="Wait" sid="760862040129717" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="293281691399816" type="System" />
+                <action id="6" name="Stop" sid="359179547063259" type="Audio">
+                    <param id="0" name="Tag">&quot;bossLvl2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="965524870499211">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="131168442282353" type="Derek">
+                    <param id="0" name="Object">bottom1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="504235765748854" type="Derek" />
+                <action id="-16" name="Wait" sid="491484340622606" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="362405589226841" type="System" />
+                <action id="6" name="Stop" sid="291992019290920" type="Audio">
+                    <param id="0" name="Tag">&quot;bossLvl2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="959479525942001">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="814435790014808" type="Derek">
+                    <param id="0" name="Object">dragonsitos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="140977998754649" type="Derek" />
+                <action id="-16" name="Wait" sid="459540909366975" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="770726327657105" type="System" />
+                <action id="6" name="Stop" sid="773458254300535" type="Audio">
+                    <param id="0" name="Tag">&quot;bossLvl2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="655698659765818">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="438232232941120" type="Bala1">
+                    <param id="0" name="Object">dragonsitos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="380244579685965" type="Bala" />
+                <action id="-9" name="Destroy" sid="700674913546524" type="dragonsitos" />
+            </actions>
+        </event-block>
+        <event-block sid="707830161221446">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="695142408257653" type="Bala">
+                    <param id="0" name="Object">dragonsitos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="561333602190892" type="Bala" />
+                <action id="-9" name="Destroy" sid="637999616828900" type="dragonsitos" />
+            </actions>
+        </event-block>
+        <event-block sid="984618305940550">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="392162049631869" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="454598771035205" type="Audio">
+                    <param id="0" name="Audio file">cityLvl2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;cityLvl2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="376245607975794">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="456526065680729" type="Derek">
+                    <param id="0" name="Object">StrtBss</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="772319651188975" type="Audio">
+                    <param id="0" name="Tag">&quot;cityLvl2&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="275075479131592" type="Audio">
+                    <param id="0" name="Audio file">bossLvl2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;bossLvl2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="396891948797080">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="908842801754422" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+                <condition id="7" name="Is mirrored" sid="351447141902563" type="Derek" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="120085110397833" type="Derek">
+                    <param id="0" name="Animation">&quot;WalkSh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="303651576105149" type="Derek">
+                    <param id="0" name="Object">Bala1</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="413602529943164" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="100813468325354" type="Bala" />
+            </actions>
+        </event-block>
+        <event-block sid="740878044910294">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="994128389492318" type="SkySerpet">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="452738826614229" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-2.5</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="461081380710952">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="580318328368311" type="System">
+                            <param id="0" name="Variable">Head</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="827685701403683" type="SkySerpet" />
+                        <action id="-9" name="Destroy" sid="376797110960413" type="skySerpent" />
+                        <action id="-9" name="Destroy" sid="327317240746415" type="skySerpent1" />
+                        <action id="-9" name="Destroy" sid="645207978352807" type="skySerpent2" />
+                        <action id="-9" name="Destroy" sid="876225730647022" type="skySerpent3" />
+                        <action id="-9" name="Destroy" sid="907185878935203" type="skySerpent4" />
+                        <action id="-9" name="Destroy" sid="737184875362364" type="skySerpent5" />
+                        <action id="-9" name="Destroy" sid="778147343059291" type="skySerpent6" />
+                        <action id="-9" name="Destroy" sid="410088177103106" type="skySerpent7" />
+                        <action id="-9" name="Destroy" sid="214353768087802" type="skySerpent8" />
+                        <action id="-9" name="Destroy" sid="290984679194984" type="SkySerpentEnd" />
+                        <action id="0" name="Spawn another object" sid="536743631445157" type="skySerpent">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="514132356580699" type="skySerpent1">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="673604816699326" type="skySerpent2">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="350828337159522" type="skySerpent3">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="494545876971650" type="skySerpent4">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="920057277464846" type="skySerpent5">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="802254187092810" type="skySerpent6">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="559610021557160" type="skySerpent7">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="695480679328278" type="skySerpent8">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="737294468142565" type="SkySerpentEnd">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="536947066557789" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="930106859541089">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="821405168454440" type="skySerpent">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="480652973226313" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="800270879106321" type="skySerpent">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="898165540810952" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="245445283736163" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="246232070709896">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="534957891633834" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="493716440173637" type="skySerpent" />
+                        <action id="-9" name="Destroy" sid="980716159327085" type="SkySerpentEnd" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="153916555849005">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="537571227307068" type="skySerpent1">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="154017072964644" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="316176499279042" type="skySerpent1">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="499742001902314" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="836602307785097" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="843637357148005">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="412742166191365" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="248750243971714" type="skySerpent1" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="992436991908080">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="547197230351589" type="skySerpent2">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="278577969783548" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="984556339616152" type="skySerpent2">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="903290515651997" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="395121824935092" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="721893400172550">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="661356454575806" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="859706521380749" type="skySerpent2" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="890502033919034">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="452567427606379" type="skySerpent3">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="753292020344899" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="903645832655721" type="skySerpent3">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="566092482794229" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="534499080614244" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="486708657317046">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="423470873685877" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="464737654019223" type="skySerpent3" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="538126790518441">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="582971819368271" type="skySerpent4">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="861081179300472" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="397524191390870" type="skySerpent4">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="452348890477315" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="526055900295990" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="530428963695764">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="140473310641365" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="441558346901173" type="skySerpent4" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="498014025888734">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="750785076919192" type="skySerpent5">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="205745989573386" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="897603574619211" type="skySerpent5">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="115665683223875" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="101612775404801" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="705758690137775">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="636973323787358" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="927447856055805" type="skySerpent5" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="667184479064426">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="291901703812002" type="skySerpent6">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="651404447759382" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="354522095464694" type="skySerpent6">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="464344171841986" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="370001342314850" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="214230787762223">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="447033091849052" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="681450958868980" type="skySerpent6" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="237186398428482">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="516193713681272" type="skySerpent7">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="595665256587960" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="918815836176519" type="skySerpent7">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="289199781383605" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="690253814769385" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="564615937706987">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="472805050827280" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="428907318066567" type="skySerpent7" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="894082893289231">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="914946754186910" type="skySerpent8">
+                    <param id="0" name="Object">Bala</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="848167124032618" type="System">
+                    <param id="0" name="Variable">Head</param>
+                    <param id="1" name="Value">-5</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="670741845164292" type="skySerpent8">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="304603065909725" type="SkySerpentEnd">
+                    <param id="0" name="Object">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="497280194894556" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="940174703606015" type="Particles" />
+            </actions>
+            <sub-events>
+                <event-block sid="982490784434299">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="191689345619653" type="System">
+                            <param id="0" name="Variable">body</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="428632996439093" type="skySerpent8" />
+                        <action id="-9" name="Destroy" sid="814693576721386" type="SkySerpentEnd" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="313170522306007">
+            <conditions>
+                <condition behavior="Turret" id="2" name="On target acquired" sid="374665705909621" type="torreta" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="671297472208413" type="torreta">
+                    <param id="0" name="Object">Sprite22</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="213561694887279">
+            <conditions>
+                <condition behavior="Turret" id="1" name="On shoot" sid="942743321402371" type="torreta" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="978712130184191" type="torreta">
+                    <param id="0" name="Object">Sprite22</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="394061729691302">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="213760670965788" type="Derek">
+                    <param id="0" name="Object">Sprite28</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="794391196096700" type="Sprite28" />
+                <action id="-10" name="Add to" sid="251717937986414" type="System">
+                    <param id="0" name="Variable">lado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

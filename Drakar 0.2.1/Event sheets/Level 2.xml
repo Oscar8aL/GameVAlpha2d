@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 2</name>
+    <events>
+        <event-block sid="942901637332211">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="192435794533679" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="382457008738480" type="Derek">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="426951493343535" type="Derek">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="255560583596766">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="656565139100326" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="718743254275357" type="Derek">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="569439870598993" type="Derek">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="756614264689621">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="930339285552142" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="149094147337496" type="Derek">
+                    <param id="0" name="Animation">&quot;jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="402486669994070">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="620117078253572" type="Keyboard">
+                    <param id="0" name="Key">88</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="409321655781315" type="Derek">
+                    <param id="0" name="Animation">&quot;attak&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942432264630996">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="351741000347855" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+                <condition id="7" inverted="1" name="Is mirrored" sid="809728870134629" type="Derek" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="752608942677090" type="Derek">
+                    <param id="0" name="Animation">&quot;WalkSh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="669671126844492" type="Derek">
+                    <param id="0" name="Object">Bala</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="479016482545458" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="512768240886290" type="Bala" />
+            </actions>
+        </event-block>
+        <event-block sid="400383959888024">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="173327844479437" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="714706408212084" type="Derek">
+                    <param id="0" name="Animation">&quot;stay1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="877603870463135">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="662337608826023" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="411648816855682" type="Derek">
+                    <param id="0" name="Animation">&quot;stay&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="502395229461562">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="491739632401821" type="Derek" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="436537840281500" type="Derek">
+                    <param id="0" name="Animation">&quot;stay&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="683735870969278" type="Derek">
+                    <param id="0" name="Animation">&quot;StaySh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 1</name>
+    <events>
+        <variable constant="0" name="lado" sid="651209016807714" static="0" type="number">0</variable>
+        <variable constant="0" name="Checkpoint_y" sid="377203000119417" static="0" type="number">0</variable>
+        <variable constant="0" name="Checkpoint_x" sid="117470043119892" static="0" type="number">0</variable>
+        <event-block sid="403323968042635">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="562294795250473" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="108954725926427" type="MarcoElFenix">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="231486677651583" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;w&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="205608807761547">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="289576340941272" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="114973177682982" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="307325234125605" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;w&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="469423014692748">
+            <conditions>
+                <condition id="3" name="On key released" sid="973061366418313" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="957159744582042" type="MarcoElFenix">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="760612140132562" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819301601450410">
+            <conditions>
+                <condition id="3" name="On key released" sid="116158909685664" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="701393057886630" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="372657196651316" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="777077624763642">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="909607402398844" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="664793054545927" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="990458941573700" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="690064508250514" type="System" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="462619444626039" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="125128047872180">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="775730406813219" type="MarcoElFenix">
+                    <param id="0" name="Object">dragonsitos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="511547566696717" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="380120085955430" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="932994556844396" type="System" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="397136573697436" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="146481262560693">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="869559548840727" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="809218399552177" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="793533241982226" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="655925544344529" type="System" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="330636437865829" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="499816419232939">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="210357441247858" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="226917838071655" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="445901807045502">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="208406031556738" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="865425511916334" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;abjo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="848448838082177">
+            <conditions>
+                <condition id="3" name="On key released" sid="562864142522420" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="741058270784590" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="378694571319958">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="668477565114989" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+                <condition id="7" name="Is mirrored" sid="964649223964901" type="MarcoElFenix" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="821243815410693" type="MarcoElFenix">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="398120497698328" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="890037129685053" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite21</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="841978897395160">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="729342487954985" type="Sprite21">
+                    <param id="0" name="Object">dragonsitos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="460738957267954" type="dragonsitos" />
+            </actions>
+        </event-block>
+        <event-block sid="548791793789355">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="783994648646542" type="dragonsitos">
+                    <param id="0" name="Object">Sprite21</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="940347557468732" type="Sprite21" />
+                <action behavior="Bullet" id="2" name="Set gravity" sid="778746975219528" type="Sprite21">
+                    <param id="0" name="Gravity">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="395391876399950">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="324442233613716" type="MarcoElFenix">
+                    <param id="0" name="Object">Particles</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="382277461184945" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="933332893593964" type="System">
+                    <param id="0" name="Seconds">2.089</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="377237492079400" type="System" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="936514866670231" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="718948999886740">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="813700269860875" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="1" name="Add object to target" sid="446953292219666" type="torreta">
+                    <param id="0" name="Target">MarcoElFenix</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="332132973814886">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="559334434180650" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite22</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="292720135755040" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="523190576890050" type="System">
+                    <param id="0" name="Seconds">2.01</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="646442927779923" type="System" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="632851656306175" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="385146907716262">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="214421842414718">
+            <conditions>
+                <condition behavior="Turret" id="2" name="On target acquired" sid="509675594650591" type="torreta" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="429004299394272" type="torreta">
+                    <param id="0" name="Object">Sprite22</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="881341077331284">
+            <conditions>
+                <condition behavior="Turret" id="1" name="On shoot" sid="894841932128611" type="torreta" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="928177891813906" type="torreta">
+                    <param id="0" name="Object">Sprite22</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="263434090013925">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="822088198537274" type="Sprite17">
+                    <param id="0" name="Object">MarcoElFenix</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="477492627290354" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="691545188288372" type="System" />
+                <action id="-16" name="Wait" sid="273333988665632" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="800402357534023" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="789155356006901">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="410846644345918" type="Sprite21">
+                    <param id="0" name="Object">Sprite23</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="194978294798228" type="Sprite23" />
+            </actions>
+        </event-block>
+        <event-block sid="288840235619769">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="643533973899002" type="Sprite14">
+                    <param id="0" name="Object">MarcoElFenix</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="729410014097785" type="Sprite14">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="239238460123399" type="Sprite14">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="543757301367131">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="594581138712889" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite24</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="408136889620232" type="Sprite19" />
+                <action id="-9" name="Destroy" sid="844880696774373" type="torreta" />
+            </actions>
+        </event-block>
+        <event-block sid="142484189154583">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="519504539369759" type="Keyboard">
+                    <param id="0" name="Key">88</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="885048153411005" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="819750788755056" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="107649930483346" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite21</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="865339487477632">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="206716637052210" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite23</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="177392292840797" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;d&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="593817191892716" type="System" />
+                <action id="-16" name="Wait" sid="743134863819789" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582158144002728">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="822496084146554" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="216898006053873" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158301413592607">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="220375968922719" type="MarcoElFenix">
+                    <param id="0" name="Object">shut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="694545635858766" type="shut">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="381953859663327">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="772079997060337" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="745351883878626" type="Text2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="422256384672351">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="140903128584146" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite28</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="587601532154254" type="Sprite28" />
+                <action id="-10" name="Add to" sid="834134013996331" type="System">
+                    <param id="0" name="Variable">lado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230502296576069">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="609434855818131" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="644134313265782" type="Audio">
+                    <param id="0" name="Audio file">Jojo 8-bit(2)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;Lvl1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="471791315917929">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="980201721530171" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="517968177029221" type="Audio">
+                    <param id="0" name="Tag">&quot;Lvl1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122582383058244">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="715535305641895" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+                <condition id="7" inverted="1" name="Is mirrored" sid="207620696991515" type="MarcoElFenix" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="367249237155658" type="MarcoElFenix">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="564412538848366" type="MarcoElFenix">
+                    <param id="0" name="Animation">&quot;att&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="119108554740462" type="MarcoElFenix">
+                    <param id="0" name="Object">Sprite36</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

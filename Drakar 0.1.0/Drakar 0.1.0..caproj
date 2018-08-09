@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1f1whnhw49gdn</unique-id>
+    <saved-with-version>25900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox integer scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="661737773999583">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="803389297762564">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="776608334801078" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="620941034466882">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite2" sid="762087160358001">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586835838608798" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="794398249323218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132750194914751" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="486061961113334">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218844675456351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="620857725386143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868902672833358" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="523939016720674">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379220442634159" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="543629683225739">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287676835332329" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="841481481465873">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="898965206219885" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="9patch" sid="782190873539282">
+            <plugin id="NinePatch" />
+            <behaviors>
+                <behavior-type name="Solid" sid="728243868506609">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\fondo\sul1.png" />
+        </object-type>
+        <object-type name="Sprite9" sid="888915661217752">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="682716510934005">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="314072951244029">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="142844312781857">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="776114544335175" speed="5">
+                    <frame duration="1" hotspotX="0.743363" hotspotY="0.666667">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.964602" y="0.458333" />
+                            <point x="0.902655" y="0.951389" />
+                            <point x="0.159292" y="0.4375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="144893920869505">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="470370456934268">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687318843692809" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.0909091" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="195351359027525">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="780765266165770">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="474478143509575">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="984546403443537" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506098" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\1.png">
+                        <collision-poly>
+                            <point x="0.203704" y="0.213415" />
+                            <point x="0.432099" y="0.0365854" />
+                            <point x="0.598765" y="0.329268" />
+                            <point x="0.598766" y="0.536585" />
+                            <point x="0.598765" y="0.689024" />
+                            <point x="0.697531" y="0.884146" />
+                            <point x="0.277778" y="0.908537" />
+                            <point x="0.209877" y="0.506098" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506098">
+                        <collision-poly>
+                            <point x="0.203704" y="0.213415" />
+                            <point x="0.432099" y="0.0365854" />
+                            <point x="0.598765" y="0.329268" />
+                            <point x="0.598766" y="0.536585" />
+                            <point x="0.598765" y="0.689024" />
+                            <point x="0.679012" y="0.902439" />
+                            <point x="0.290123" y="0.908537" />
+                            <point x="0.209877" y="0.506098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="1" name="w" pingpong="0" repeatcount="1" repeatto="0" sid="230453382714909" speed="9">
+                    <frame duration="1" hotspotX="0.574468" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\walk\3.png">
+                        <collision-poly>
+                            <point x="0.312057" y="0.0375" />
+                            <point x="0.638298" y="0" />
+                            <point x="0.914894" y="0.95" />
+                            <point x="0.120567" y="0.91875" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.574468" hotspotY="0.496894" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\walk\5.png">
+                        <collision-poly>
+                            <point x="0.397163" y="0.0310559" />
+                            <point x="0.652482" y="0.0248447" />
+                            <point x="0.58156" y="0.987578" />
+                            <point x="0.29078" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\walk\Sin título-1.png">
+                        <collision-poly>
+                            <point x="0.271084" y="0.0555556" />
+                            <point x="0.620482" y="0.00617284" />
+                            <point x="0.771084" y="0.895062" />
+                            <point x="0.415663" y="0.981481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="att" pingpong="0" repeatcount="1" repeatto="0" sid="446422758720327" speed="40">
+                    <frame duration="1" hotspotX="0.517949" hotspotY="0.48731" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att100.png">
+                        <collision-poly>
+                            <point x="0.2" y="0.304568" />
+                            <point x="0.846154" y="0.35533" />
+                            <point x="0.841026" y="0.893401" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att101.png">
+                        <collision-poly>
+                            <point x="0.585" y="0.495" />
+                            <point x="0.85" y="0.325" />
+                            <point x="0.865" y="0.87" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att200.png">
+                        <collision-poly>
+                            <point x="0.64" y="0.425" />
+                            <point x="0.88" y="0.28" />
+                            <point x="0.83" y="0.845" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att111.png">
+                        <collision-poly>
+                            <point x="0.8" y="0.255" />
+                            <point x="0.915" y="0.285" />
+                            <point x="0.905" y="0.785" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att202.png">
+                        <collision-poly>
+                            <point x="0.635" y="0.07" />
+                            <point x="0.93" y="0.28" />
+                            <point x="0.76" y="0.86" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\marco el fenix\att\att300.png">
+                        <collision-poly>
+                            <point x="0.385" y="0.005" />
+                            <point x="0.845" y="0.065" />
+                            <point x="0.835" y="0.87" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="abjo" pingpong="0" repeatcount="1" repeatto="0" sid="501715330561639" speed="3">
+                    <frame duration="1" hotspotX="0.506098" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.213415" y="0.796296" />
+                            <point x="0.0365854" y="0.567901" />
+                            <point x="0.329268" y="0.401235" />
+                            <point x="0.536585" y="0.401234" />
+                            <point x="0.689024" y="0.401235" />
+                            <point x="0.884146" y="0.302469" />
+                            <point x="0.908537" y="0.722222" />
+                            <point x="0.506098" y="0.790123" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506098" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.213415" y="0.796296" />
+                            <point x="0.0365854" y="0.567901" />
+                            <point x="0.329268" y="0.401235" />
+                            <point x="0.536585" y="0.401234" />
+                            <point x="0.689024" y="0.401235" />
+                            <point x="0.902439" y="0.320988" />
+                            <point x="0.908537" y="0.709877" />
+                            <point x="0.506098" y="0.790123" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="598370567600917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="160591733228192">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170149972520814" speed="5">
+                    <frame duration="1" hotspotX="7.875" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="665961670427746">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="356976113835562">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873378107015723" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\fondo\sul5.png">
+                        <collision-poly>
+                            <point x="0.00495049" y="0.00495049" />
+                            <point x="0.5" y="0.00495049" />
+                            <point x="0.960396" y="0.039604" />
+                            <point x="0.910891" y="0.5" />
+                            <point x="0.618812" y="0.618812" />
+                            <point x="0.5" y="0.806931" />
+                            <point x="0.00495049" y="0.995049" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="542523175879773">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="9patch2" sid="503237759402498">
+            <plugin id="NinePatch" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite14" sid="484661342269678">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840542738894912" speed="5">
+                    <frame duration="1" hotspotX="0.517949" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\tuto\stand.png">
+                        <collision-poly>
+                            <point x="0.307692" y="0.29703" />
+                            <point x="0.517949" y="0.00990099" />
+                            <point x="0.702564" y="0.321782" />
+                            <point x="0.738462" y="0.5" />
+                            <point x="0.738462" y="0.712871" />
+                            <point x="0.517949" y="0.980198" />
+                            <point x="0.333333" y="0.678218" />
+                            <point x="0.25641" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="141258583828082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="393378512314696">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746318840451393" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\fondo\sul3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="508857547196226">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="683407533864975">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="544918827764015">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="315582675661101">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="627096509544371" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.758389">
+                        <collision-poly>
+                            <point x="0.0198413" y="0.355705" />
+                            <point x="0.988095" y="0.342282" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.758389">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="i" sid="795853112339618">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="636083001049152" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="401815682942810">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="742188421576396">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="432597667099284">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="497283565204071" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="846746891806349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434239735410825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="632853554029655">
+            <plugin id="Particles" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="189034243337704">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Turret" sid="904949204626384">
+                    <behavior id="Turret" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="340614080552148">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="703074935409013">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\pixil-frame-0.png" />
+        </object-type>
+        <object-type name="Sprite20" sid="164899133287768">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="859852593112714">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="527283771901247">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551491047247633" speed="5">
+                    <frame duration="1" hotspotX="0.520408" hotspotY="0.125" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="361544350360904">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\2936710-pixels-pixel-art-8-bit-rock-asian-architecture-house-moon-clouds___landscape-nature-wallpapers.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="326413368621245">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\pared.png" />
+        </object-type>
+        <object-type name="Sprite21" sid="491008223470605">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="500923913400314">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="554752048893068">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602634215081896" speed="5">
+                    <frame duration="1" hotspotX="0.67033" hotspotY="0.5125" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground5" sid="127161756955784">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\maderini.png" />
+        </object-type>
+        <object-type name="Sprite19" sid="506308687387124">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201030835694865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\pared.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="426191883255722">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="276478676580820" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\Memoria\Unipoli\Tercer Cuatrimestre\Juego\Sprites\maderini.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Level 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Level 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="1" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
